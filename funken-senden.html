@@ -1,51 +1,27 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Funken senden – Funken</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: linear-gradient(to right, #ff7eb9, #8e2de2);
-      color: white;
-      text-align: center;
-      padding: 50px;
-    }
-    button {
-      padding: 15px 30px;
-      font-size: 18px;
-      background-color: white;
-      color: #8e2de2;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-    .message {
-      margin-top: 20px;
-      font-size: 20px;
-      display: none;
-    }
-  </style>
-  <script>
-    function sendSpark() {
-      const msg = document.getElementById('spark-message');
-      msg.style.display = 'block';
-      msg.textContent = 'Funke gesendet! Danke für dein Vertrauen.';
-    }
-  </script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Navigation -->
-<nav style="background: rgba(255, 255, 255, 0.1); padding: 15px 0; text-align: center; backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 100;">
-  <a href="index.html" style="margin: 0 20px; color: white; text-decoration: none; font-weight: bold;">Start</a>
-  <a href="ueber-uns.html" style="margin: 0 20px; color: white; text-decoration: none; font-weight: bold;">Über uns</a>
-  <a href="kontakt.html" style="margin: 0 20px; color: white; text-decoration: none; font-weight: bold;">Kontakt</a>
-  <a href="funken-senden.html" style="margin: 0 20px; color: white; text-decoration: none; font-weight: bold;">Funken senden</a>
-</nav>
-  <h1>Funken senden</h1>
-  <p>Teste den Funken-Button – ganz einfach!</p>
-  <button onclick="sendSpark()">Funken senden</button>
-  <div class="message" id="spark-message"></div>
+  <nav class="navbar">
+    <a href="index.html">Start</a>
+    <a href="about.html">Über uns</a>
+    <a href="funken-senden.html">Funken senden</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="login.html">Login</a>
+  </nav>
+
+  <div class="centered">
+    <h1>Funken senden</h1>
+    <button class="cta-button">Funken senden</button>
+  </div>
+
+  <footer>
+    © 2025 Funken – mit Herz gemacht.
+  </footer>
 </body>
 </html>
