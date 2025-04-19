@@ -2,74 +2,27 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Funken</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #ff69b4, #b19cd9);
-      color: white;
-      text-align: center;
-    }
-
-    header {
-      padding: 40px 20px;
-    }
-
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
-    }
-
-    p.slogan {
-      font-size: 1.5em;
-      margin-bottom: 2em;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 15px 30px;
-      font-size: 1.2em;
-      color: #ff69b4;
-      background-color: white;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background 0.3s ease;
-    }
-
-    .button:hover {
-      background-color: #f0e6f6;
-    }
-
-    footer {
-      margin-top: 50px;
-      font-size: 0.9em;
-      opacity: 0.8;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Funken – Start</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <nav class="navbar">
+    <a href="index.html">Start</a>
+    <a href="about.html">Über uns</a>
+    <a href="funken-senden.html">Funken senden</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="login.html">Login</a>
+  </nav>
+
+  <div class="centered">
     <h1>Funken</h1>
     <p class="slogan">Echte Verbindungen, ehrliche Begegnungen.</p>
-    <nav>
-      <a href="about.html">Über uns</a>
-      <a href="funken-senden.html">Funken senden</a>
-    </nav>
-    <a class="button" href="funken-senden.html">Jetzt Funken senden</a>
-  </header>
+    <a href="funken-senden.html" class="cta-button">Jetzt Funken senden</a>
+  </div>
 
   <footer>
-    &copy; 2025 Funken – mit Herz gemacht.
+    © 2025 Funken – mit Herz gemacht.
   </footer>
 </body>
 </html>
